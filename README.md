@@ -6,6 +6,6 @@ Add your bot token and username tag to the environment variables in the dockerfi
 
 Run docker-compose up to start the bot.
 
-After, the Telegram bot can be found at this link: [python-telegram-bot](https://t.me/divine_python_telegram_bot).
+After the image is built and running, you can test your Telegram bot.
 
 It will try to download the best possible video+audio quality combination below the 50MiB size limit, if it is possible.
