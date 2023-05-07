@@ -1,5 +1,5 @@
 # Telegram-YT-Bot
-Telegram bot that downloads Youtube videos
+Telegram bot that downloads Youtube videos from a given link.
 
 Run docker-compose up to start the bot.
 
