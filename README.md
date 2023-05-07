@@ -1,6 +1,9 @@
 # Telegram-YT-Bot
-Telegram bot that downloads Youtube videos from a given link.
+
+Telegram bot that downloads YouTube videos from a given link.
 
 Run docker-compose up to start the bot.
 
-The Telegram bot can be found at this link: [python-telegram-bot](https://t.me/divine_python_telegram_bot).
+After, the Telegram bot can be found at this link: [python-telegram-bot](https://t.me/divine_python_telegram_bot).
+
+It will try to download the best possible video+audio quality combination below the 50MiB size limit, if it is possible.
