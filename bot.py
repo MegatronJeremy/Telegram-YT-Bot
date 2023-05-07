@@ -25,7 +25,9 @@ def handle_response(text: str) -> str:
     if not validators.url(text):
         return 'Not a valid URL link!'
 
-    ydl_opts = {"outtmpl": "%(id)s.%(ext)s", "format": "best[filesize<50M][ext=mp4]"}
+    ydl_opts = {"outtmpl": "%(id)s.%(ext)s",
+                "format":
+                    "bestvideo[filesize<50M][ext=mp4]+bestaudio[filesize<50M][""ext=m4a]"}
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
             info = ydl.extract_info(text, download=True)
