@@ -1,5 +1,9 @@
 FROM python:3.10
 
+# Set environment variables
+ENV TELEGRAM_BOT_TOKEN your_token_here
+ENV TELEGRAM_BOT_USERNAME your_bot_username_here
+
 WORKDIR /app
 
 COPY requirements.txt .
